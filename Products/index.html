@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/css/global.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+    <main class="container-fluid px-0">
+
+        <header class="container-fluid container-xxl bg-header px-xxl-0">
+            <nav
+                class="navbar navbar-expand-lg align-items-baseline align-items-lg-center navbar-light bg-white row p-0 ps-lg-4 ps-xxl-0" id="top">
+                <div class="container-fluid justify-content-between">
+                    <div class="row w-100 justify-content-between mt-5 mt-lg-3 mt-xl-0">
+                        <button class="navbar-toggler col-auto me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="col-auto py-0 d-flex ps-lg-3 ps-xxl-5 align-items-center border-left" href="#">
+                            <figure class="logo">
+                                <img src="../asset/img/logo.png" alt="" class="w-100">
+                            </figure>
+                            <h1 class="fs-24 fw-900 me-3">
+                                فرمولیست
+                            </h1>
+                        </a>
+                        <div class="col-xl-auto collapse  navbar-collapse pe-xxl-5 flex-wrap justify-content-between pb-4 pb-xl-0"
+                            id="navbarTogglerDemo03">
+                            <ul class="navbar-nav mt-lg-0 mb-lg-0 my-4">
+                                <li class="nav-item fs-13 fw-600">
+                                    <a class="nav-link" href="#">صفحه اصلی</a>
+                                </li>
+                                <li class="nav-item fs-13 fw-600 d-flex align-items-center">
+                                    <div class="dropdown">
+                                        <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            محصولات
+                                        </a>
+
+                                        <ul class="dropdown-menu text-end" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">دمو</a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    دمو
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#">
+                                                    دمو
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item fs-13 fw-600">
+                                    <a class="nav-link" href="#">مقالات</a>
+                                </li>
+                                <li class="nav-item fs-13 fw-600">
+                                    <a class="nav-link" href="#">درباره ما</a>
+                                </li>
+                                <li class="nav-item fs-13 fw-600">
+                                    <a class="nav-link" href="#">تماس با ما</a>
+                                </li>
+                            </ul>
+                            <div
+                                class="d-flex align-items-center mb-4 mb-lg-0 me-xxl-5 pe-xl-5 pe-lg-4 justify-content-center">
+                                <a href=""
+                                    class="shopp-btn d-flex align-items-center justify-content-center rounded-circle position-relative">
+                                    <div class="circle-green">5</div>
+                                    <i class="bi-bag"></i>
+                                </a>
+                                <div class="dropdown me-3">
+                                    <button
+                                        class="dropdown-toggle d-flex align-items-center justify-content-center fs-12 border-0 sign-btn"
+                                        type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span class="ms-3">ورود / عضویت</span>
+
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex pe-3 position-relative align-items-center justify-content-center me-lg-4 mx-auto ms-lg-0 w-175">
+                                <div class="lh-18 ">
+                                    <a href="" class="txt-light-gold">
+                                        <span class="fw-900 fs-5">۳۳۶۱۶۳۶۰</span>
+                                        <span class="txt-light-blue">۰۳۱</span>
+                                    </a>
+                                    <p class="txt-dark-purple fs-11 txt-light-blue m-0">پشتیبانی سریع</p>
+                                </div>
+                                <div>
+                                    <i class="bi-telephone txt-light-gold display-5 position-absolute"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row justify-content-between align-items-center pe-3 py-4 py-md-0">
+                <div class="col d-flex align-items-center ">
+                    <span class="dash bg-light"></span>
+                    <h3 class="fs-13 my-0 me-3 txt-light-white">
+                        ارائه فرمولاسیون تولید حرفه ای</h3>
+                </div>
+                <form action="" class="col-md">
+                    <div
+                        class="input-group mt-4 mt-md-0  mx-auto me-md-auto ms-md-0 overflow-hidden brds16 bg-lightgray align-items-center input-search-main">
+                        <input type="text" class="input-search form-control h-100 fs-12 border-0 py-3"
+                            placeholder="جست و جو در سایت" aria-label="Input group example"
+                            aria-describedby="btnGroupAddon">
+                        <div class="input-group-prepend bg-search">
+                            <form class="bg-lightgray rounded-0 border-0 input-group-text pt-2 ps-4" id="btnGroupAddon">
+                                <label for="search"
+                                    class="pointer d-flex align-items-center justify-content-center w-100 h-100">
+                                    <i class="bi-search"></i>
+                                </label>
+                                <input id="search" type="submit" class="d-none">
+                            </form>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </header>
+
+
+        <!------------------------ directory  --------------------->
+        <div class="container-xxl container-fluid mt-3 px-xxl-0">
+            <div class="row bg-directory bdrs-30 fs-14 px-4">
+                <div class="col-auto ">
+                    <a href="" class="py-3 d-flex txt-light-gray">
+                        صفحه اصلی
+                        <span class="me-3">)</span>
+                    </a>
+                </div>
+                <div class="col-auto txt-black">
+                    <a href="" class="py-3 d-flex txt-light-gray">
+                        محصولات
+                        <span class="me-3">)</span>
+                    </a>
+                </div>
+                <div class="col-auto ">
+                    <a href="" class="py-3 d-flex fw-900 iransans">
+                        فرمولاسیون مایع ظرفشویی
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!------------------ products interview  -------------->
+        <section class="container-fluid position-relative">
+            <div class="bg-blue-circle2"></div>
+            <section class="container-xxl container-fluid mt-5 px-xxl-0 pt-5">
+                <div class="row bg-white bdrs-30 py-5 px-sm-4 position-relative  main-box-around justify-content-center">
+                    <div class="line-yellow"></div>
+                    <div class="col-lg mw-430 mt-5 ps-lg-5 mb-5">
+                        <h3 class="iransans text-center">
+                            فرمولاسیون مایع ظرفشویی
+                        </h3>
+                        <div class="position-relative z-index-1 py-2">
+                            <div
+                                class="d-flex align-items-center justify-content-center bg-lighter-gray w-125 bdrs-30 px-3 py-2 my-4 mx-auto fs-12 txt-light-gray fw-bold">
+                                <i class="bi-star-fill txt-gold pb-1 ms-2"></i>
+                                <span class="fw-normal text-black iransans ms-1">
+                                    2/5
+                                </span>
+                                از
+                                <span class="fw-normal text-black iransans mx-1">
+                                    45
+                                </span>
+                                رای
+                            </div>
+                            <div class="line-gray"></div>
+                        </div>
+                        <ul class="list-style-disc pe-sm-4 pe-2 mb-4 mt-2">
+                            <li class="fs-13">
+                                <p class="txt-lighter-gray d-inline-block w-125">
+                                    ظاهر
+                                </p>
+                                <p class="fw-bold txt-dark-purple d-inline-block ">
+                                    مایع شفاف بیرنگ
+                                </p>
+                            </li>
+                            <li class="fs-13">
+                                <p class="txt-lighter-gray d-inline-block w-125">
+                                    چگالی
+                                </p>
+                                <p class="fw-bold txt-dark-purple d-inline-block ">
+                                    2
+                                    گرم بر سانتی متر مکعب
+                                </p>
+                            </li>
+                            <li class="fs-13">
+                                <p class="txt-lighter-gray d-inline-block w-125">
+                                    محلول
+                                </p>
+                                <p class="fw-bold txt-dark-purple d-inline-block ">
+                                    حداکثر
+                                    2
+                                </p>
+                            </li>
+                            <li class="fs-13">
+                                <p class="txt-lighter-gray d-inline-block w-125">
+                                    درصد جامد
+                                </p>
+                                <p class="fw-bold txt-dark-purple d-inline-block ">
+                                    حداقل 2 درصد
+                                </p>
+                            </li>
+                            <li class="fs-13">
+                                <p class="txt-lighter-gray d-inline-block w-125">
+                                    مونومر آزاد
+                                </p>
+                                <p class="fw-bold txt-dark-purple d-inline-block ">
+                                    حداکثر 2 درصد
+                                </p>
+                            </li>
+                            <li class="fs-13">
+                                <p class="txt-lighter-gray d-inline-block w-125">
+                                    واحد
+                                </p>
+                                <p class="fw-bold txt-dark-purple d-inline-block ">
+                                    کیلوگرم
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="row border-top align-items-center justify-content-sm-between justify-content-center ps-0">
+                            <div class="col-auto my-4">
+                                <div class="fw-normal pe-3 txt-darker-blue">قیمت</div>
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-1">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto count-box">
+                                <div class="number-input">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                        class="plus"></button>
+                                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                    <button
+                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-3 mt-sm-0">
+                                <a href="" class="view-green-btn w-100 mx-lg-3 text-white py-4">
+                                    افزودن به سبد خرید
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg mt-3">
+                        <figure class="product-view d-flex align-items-center justify-content-center position-relative">
+                            <img src="../asset/img/cream-bg-gray.png" alt="">
+                            <a href="" class="dark-blue-btn1">
+                                <i class="bi-share text-white fs-20"></i>
+                            </a>
+                            <a href="" class="dark-blue-btn2">
+                                <i class="bi-heart text-white fs-20 pt-1"></i>
+                            </a>
+                        </figure>
+
+                        <div class="col product-view h-auto px-4 px-md-5 py-5 mt-4">
+                            <h3 class="text-end txt-darker-blue iransans ">
+                                توضیحات
+                                <span class="iransanslight">
+                                    محصول
+                                </span>
+                            </h3>
+                            <div class="blue-dash-big my-4"></div>
+                            <p class="text-justify mt-5 txt-light-blue lh-30 fs-14">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است،
+                                و برای شرایط
+                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت
+                                بیشتری
+                                است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                گرافیک است،
+                                و برای شرایط
+                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت
+                                بیشتری
+                                است.
+                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت
+                                بیشتری
+                                است.
+                            </p>
+                            <p
+                                class="text-justify mt-5 txt-light-blue lh-30 fs-14 border-bottom border-seccondary pb-5">
+                                و برای شرایط
+                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت
+                                بیشتری
+                                است.
+                                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت
+                                بیشتری
+                                است.</p>
+
+
+                            <h5 class="txt-darker-blue iransans pb-5 mt-5">
+                                سوالات و نظرات کاربران
+                            </h5>
+                            <div class="row">
+                                <div class="col-12 my-5">
+                                    <div class="col d-flex fs-14">
+                                        <div class="iransans ms-4 ms-sm-5 mb-4">
+                                            محمد اسماعیل پور
+                                        </div>
+                                        <div class="txt-black fs-13">
+                                            ۱۵ فروردین
+                                            ۱۴۰۰
+                                            <span class="txt-lighter-gray me-1">
+                                                ۱۵:۰۰
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-justify txt-dark-gray fs-14"> درصد گذشته حال و آینده، شناخت
+                                            فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                                            افزارها شناخت
+                                            بیشتری
+                                            است.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 bg-white bdrs-30 py-4 px-4 mb-5">
+                                    <div class="row align-items-center justify-content-center justify-content-sm-start">
+                                        <div class="col-auto dash-border me-3">
+                                            <i class="bi-person gold-person"></i>
+                                        </div>
+                                        <b class="col-auto ms-4 me-3 fs-14">پشتیبانی</b>
+                                        <div class="col-auto txt-black fs-13 my-3 mt-sm-0">
+                                            ۱۵ فروردین
+                                            ۱۴۰۰
+                                            <span class="txt-lighter-gray me-1">
+                                                ۱۵:۰۰
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="fs-14 text-justify pe-3 mt-3 txt-dark-gray"> درصد گذشته حال و آینده، شناخت
+                                        فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                                        افزارها شناخت
+                                        بیشتری
+                                        است.
+                                    </p>
+                                </div>
+                                <div class="border-top mb-5 py-5 border-bottom">
+                                    <div class="col-12 ">
+                                        <div class="col d-flex fs-14">
+                                            <div class="iransans ms-4 ms-sm-5 mb-4">
+                                                محمد اسماعیل پور
+                                            </div>
+                                            <div class="txt-black fs-13">
+                                                ۱۵ فروردین
+                                                ۱۴۰۰
+                                                <span class="txt-lighter-gray me-1">
+                                                    ۱۵:۰۰
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text-justify txt-dark-gray fs-14"> درصد گذشته حال و آینده، شناخت
+                                                فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                                                افزارها شناخت
+                                                بیشتری
+                                                است.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <form action="" class="row">
+                                <div class="col-md flex-column d-flex">
+                                    <label for="name" class="text-end pe-3 mb-2 fs-14 txt-light-gray">
+                                        نام
+                                    </label>
+                                    <input type="text" id="name" class="h-40 bdrs-30 bg-form border-0 px-4 fs-14">
+                                </div>
+                                <div class="col-md flex-column d-flex mt-4 mt-md-0">
+                                    <label for="security" class="text-end pe-3 mb-2 fs-14 txt-light-gray">
+                                        کد امنیتی
+                                    </label>
+                                    <div class="d-flex  bdrs-30 overflow-hidden align-items-center ps-2 bg-form"
+                                        id="security-parent">
+                                        <input type="text" maxlength="15" id="security"
+                                            onfocusout="document.getElementById('security-parent').classList.remove('shadow-form')"
+                                            onfocusin="document.getElementById('security-parent').classList.add('shadow-form')"
+                                            class="h-40 border-0 px-4 fs-14 w-75">
+                                        <div class="bg-white txt-dark-purple pt-1 w-25 bdrs-30 h-75 fs-14">8a3z86</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <label for="text"></label>
+                                    <textarea name="text" id="text" rows="7"
+                                        class="border-0 bg-form bdrs-25 w-100 p-5 textarea-res-none"></textarea>
+                                </div>
+                                <div class="text-end">
+                                    <label for="submit"></label>
+                                    <input type="submit" id="submit" value="ارسال"
+                                        class="border-0 bdrs-30 bg-yellow text-white w-100 mw-340 h-40 mt-3">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!----------------------------------------- first product  ------------------------------->
+        <div class="container-fluid position-relative p-0 pb-5">
+            <div class="swiper mySwiper container-fluid pe-sm-4">
+                <div class="gray-line position-absolute z--1 bg-dark-gray w-100 r-40-p start-0 h-70-p top-58-per"></div>
+                <!-- line break  -->
+                <div class="container-fluid">
+                    <div class="row my-5 pl-calc justify-content-md-between justify-content-center pt-5">
+
+                        <div class="col-md-auto d-flex align-items-center mb-5">
+                            <figure class="w-26-p mb-0">
+
+                                <img src="../asset/img/three-dots.png" alt="" class="w-100">
+                            </figure>
+                            <div class="me-4">
+                                <p class="txt-black my-0">محصولات</p>
+                                <h3 class="txt-purple fw-900 my-0 iransans">
+                                    مشابه
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="col-auto position-relative d-flex align-items-center mb-5 ms-0 ms-md-5">
+                            <a class="view-all-btn ms-4" href="">
+                                مشاهده همه
+                            </a>
+                            <div class="swiper-button-prev position-static mt-1 txt-darker-gray" tabindex="0"
+                                role="button" aria-label="Previous slide"
+                                aria-controls="swiper-wrapper-c622961a3d3c35ca"></div>
+                            <i class="bi-three-dots-vertical fs-20 d-flex mt-1 txt-darker-gray"></i>
+                            <div class="swiper-button-next position-static mt-1 txt-darker-gray" tabindex="0"
+                                role="button" aria-label="Next slide" aria-controls="swiper-wrapper-c622961a3d3c35ca">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-wrapper my-5">
+                    <div class="swiper-slide ">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <div class="bg-box"></div>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <div class="bg-box"></div>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                                <div class="bg-box"></div>
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <div class="bg-box"></div>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                                <div class="bg-box"></div>
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                                <div class="bg-box"></div>
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                                <div class="bg-box"></div>
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="col-lg product-box">
+                            <figure>
+                                <img src="../asset/img/cream1.png" alt="productBox" class="">
+                                <div class="bg-box"></div>
+                            </figure>
+                            <strong class="fw-900 iransans">دانش فنی، فرمولاسیو ژل کرم ضد جوش</strong>
+                            <p class="fs-11 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است که با آن می
+                                توانید</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="d-flex align-items-center bg-lighter-gray bdrs-20 px-3 mt-3">
+                                    <del class="fw-900 text-dark fs-13 iransans">۲,۰۰۰,۰۰۰</del>
+                                    <div>
+                                        <span class="fw-900 txt-green fs-5 me-4 iransans">۱,۷۰۰,۰۰۰</span>
+                                        <span class="fs-13 txt-dark-gray">تومان</span>
+                                    </div>
+                                </div>
+                                <a href="" class="view-green-btn me-3 mt-3" title="view">
+                                    مشاهده
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!------------------------ footer  --------------------->
+    <footer class="container-xxl container-fluid px-3 px-xxl-0 my-5 pt-5 position-relative overflow-y-hidden">
+        <a class="go-to-top" href="#top">
+            <i class="bi-chevron-up"></i>
+        </a>
+        <div class="shodow-half-footer"></div>
+        <div class="row px-3 px-xxl-0 pt-5">
+            <div class="col-xl-5 mb-5 mb-xl-0">
+                <div class="col-auto d-flex align-items-center">
+                    <div class="position-relative me-5">
+                        <figure class="logo-footer">
+                            <img src="../asset/img/logo.png" alt="" class="w-100">
+                        </figure>
+                        <h2 class="fs-24 txt-blue">
+                            فرمولیست
+                        </h2>
+                        <h3 class="txt-darkgray fw-normal txt-light-gray fs-12">
+                            ارائه فرمولاسیون تولید حرفه ای
+                        </h3>
+                    </div>
+                </div>
+                <p class="text-secondary mt-3 lh-27 fs-13 text-justify">
+                    <strong class="txt-purple iransans fw-900 fs-17">
+                        فرمولیست
+                    </strong>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                    و برای شرایط
+                    درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                    است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                    و برای شرایط
+                    درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                    است.
+                </p>
+            </div>
+            <div class="col-sm pe-lg-5">
+                <div class="row">
+                    <h6 class="txt-blue fw-bold mb-3">
+                        دسترسی
+                        سریع
+                    </h6>
+                    <ul class="col-5 lh-37">
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                پرسش و پاسخ
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                اخبار بازار
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                ویدئو ها
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                تحلیل بازار
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                مفاله و دانشنامه
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul class="col-auto lh-37 me-3">
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                پرسش و پاسخ
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                اخبار بازار
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                ویدئو ها
+                            </a>
+                        </li>
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                تحلیل بازار
+                            </a>
+                        </li>
+
+                        <li class="circle-before"><a href="" class="fs-13 txt-black">
+                                مقاله و دانشنامه
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md mt-5 mt-md-0">
+                <h6 class="fw-bold txt-blue text-center text-xl-end">
+                    نماد ها اطمینان
+                </h6>
+                <div class="row mt-5 bg-inamad mx-auto mx-xl-0">
+                    <div class="col-auto ps-0">
+                        <a href="">
+                            <figure class="w-80 me-3">
+                                <img src="../asset/img/inamad2.png" alt="abtin azma" class="w-100">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-auto pe-0">
+                        <a href="">
+                            <figure class="w-65">
+                                <img src="../asset/img/inamad1.png" alt="abtin azma" class="w-100">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-under-footer align-items-center px-3 mt-4 mx-0 justify-content-center ">
+            <div class="col-lg mb-5 mb-lg-0 d-flex justify-content-lg-start justify-content-center mt-lg-4">
+                <a href="" class="social-circle-footer"><i class="bi-whatsapp"></i></a>
+                <a href="" class="social-circle-footer"><i class="bi-telegram"></i></a>
+                <a href="" class="social-circle-footer"><i class="bi-youtube"></i></a>
+                <a href="" class="social-circle-footer"><i class="bi-instagram"></i></a>
+                <a href="" class="social-circle-footer"><i class="bi-google"></i></a>
+                <a href="" class="social-circle-footer"><i class="bi-twitter"></i></a>
+                <a href="" class="social-circle-footer"><i class="bi-facebook"></i></a>
+            </div>
+            <div class="col-sm-auto mt-lg-4 ms-lg-5 ms-0 ms-sm-3 text-center mb-4 mb-sm-0">
+                <div class="lh-18">
+                    <a href="" class="txt-light-gold">
+                        <span class="fw-900 fs-3">۷۸۷۰۵۱۲</span>
+                        <span class="txt-dark-white fs-20">۰۹۱۱</span>
+                    </a>
+                    <p class="fs-11 txt-dark-white m-0">پشتیبانی واتس اپ</p>
+                </div>
+            </div>
+            <div
+                class="col-sm-auto justify-content-center d-flex position-relative align-items-center mt-lg-4 ms-0 ms-sm-3 ms-lg-5 ps-5">
+                <div class="lh-18">
+                    <a href="" class="txt-light-gold">
+                        <span class="fw-900 fs-3">۳۳۶۱۶۳۶۰</span>
+                        <span class="txt-dark-white fs-20">۰۳۱</span>
+                    </a>
+                    <p class="fs-11 txt-dark-white m-0">پشتیبانی سریع</p>
+                </div>
+                <div>
+                    <i class="bi-telephone txt-light-gold fs-1 position-absolute top-0"></i>
+                </div>
+            </div>
+        </div>
+        <p class="text-center fs-12 mt-5 text-secondary">
+            تمام حقوق این وبسایت متعلق به
+            <strong class="text-black">
+                فرمولیست
+            </strong>
+            می باشد.
+        </p>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../asset/js/bootstrap.bundle.min.js"></script>
+    <script src="../asset/js/script.js"></script>
+</body>
+
+</html>

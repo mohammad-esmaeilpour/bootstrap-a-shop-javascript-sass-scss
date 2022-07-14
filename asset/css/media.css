@@ -1,0 +1,197 @@
+@media screen and (max-width: 576px) {
+  .logo {
+    margin: 0;
+  }
+  .nav-item {
+    margin: 10px;
+  }
+  .p-btn {
+    padding: 15px 20px;
+  }
+  .pb-secc1 {
+    padding-bottom: 100px;
+  }
+  .social-circle-footer {
+    margin: 0 0 0 6px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .logo {
+    margin: 0;
+  }
+  .nav-item {
+    margin: 10px;
+  }
+  .pb-secc1 {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bg-header {
+    background-image: linear-gradient(41deg, white, white, white, white, #868797, #262845, #262845);
+    border-radius: 0 0 23px 0;
+  }
+}
+@media screen and (min-width: 994px) {
+  .bg-under-footer {
+    background-size: cover;
+    height: 126px;
+    background-image: url(../img/bg-footer.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 0;
+  }
+  .carousel-indicators {
+    bottom: 25px !important;
+  }
+  .swiper-button-next {
+    left: -25px;
+  }
+  .swiper-button-prev {
+    right: -25px;
+  }
+  #carouselExampleIndicators > button:nth-of-type(2) {
+    top: 64% !important;
+    right: 33% !important;
+  }
+  #carouselExampleIndicators > button:nth-of-type(1) {
+    right: 52% !important;
+    top: 64% !important;
+  }
+  .logo {
+    margin: 0 0 1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bg-under-footer {
+    background-size: contain;
+  }
+  .border-left {
+    border-left: 1px solid #e9eaee;
+  }
+}
+@media (min-width: 1500px) {
+  .go-to-top {
+    height: 65px;
+    width: 35px;
+    background-image: linear-gradient(to top, white, #f9fafc, #f9fafc);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 12px;
+    color: #3d456b;
+    position: absolute;
+    top: 100px;
+    right: -70px;
+  }
+  .myArticle,
+.mySwiper {
+    margin-right: 5% !important;
+    width: 95%;
+  }
+  .pl-calc {
+    padding-left: 5% !important;
+  }
+}
+@media (min-width: 1600px) {
+  .bg-blue-circle {
+    width: 207px;
+    height: 453px;
+    background-size: cover;
+  }
+  .myArticle,
+.mySwiper {
+    margin-right: 9% !important;
+    width: 91%;
+  }
+  .pl-calc {
+    padding-left: 9% !important;
+  }
+  .play-btn {
+    bottom: 6%;
+  }
+  .h-841 {
+    height: 887px;
+  }
+  .bg-lab-blue {
+    min-height: 990px;
+  }
+}
+@media (min-width: 1700px) {
+  .bg-blue-circle {
+    width: 265px;
+    height: 580px;
+    background-size: cover;
+  }
+  .bg-lab-blue {
+    min-height: 1020px;
+  }
+  .product-box {
+    max-width: 450px;
+    min-height: 300px;
+  }
+  .product-box figure {
+    max-width: 430px;
+    height: 335px;
+  }
+  .myArticle,
+.mySwiper {
+    margin-right: 13% !important;
+    width: 87%;
+  }
+  .pl-calc {
+    padding-left: 17% !important;
+  }
+  .bg-blue-circle2 {
+    width: 256px;
+    right: 0;
+    top: 65px;
+    height: 712px;
+    height: 567px;
+    background-size: cover;
+  }
+}
+@media (min-width: 1800px) {
+  .bg-blue-circle2 {
+    background-size: cover;
+    width: 345px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    background-image: url(../img/half-circle.png);
+    height: 755px;
+    background-repeat: no-repeat;
+  }
+  .bg-lab-blue {
+    min-height: 1086px;
+  }
+  .h-841 {
+    height: 1036px;
+  }
+}
+@media (min-width: 1900px) {
+  .bg-blue-lab {
+    min-height: 1043px;
+  }
+}
+@media (min-width: 2000px) {
+  .bg-lab-blue {
+    min-height: 1103px;
+  }
+  .bg-blue-lab {
+    max-width: 1585px;
+    min-height: 1043px;
+  }
+}
+@media (min-width: 2200px) {
+  .pl-calc {
+    padding-left: 0% !important;
+  }
+  .myArticle,
+.mySwiper {
+    max-width: 1400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}/*# sourceMappingURL=media.css.map */
